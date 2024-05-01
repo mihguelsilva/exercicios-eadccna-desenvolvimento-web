@@ -1,0 +1,36 @@
+@charset "utf-8";
+* {
+    padding: 0px;
+    margin: 0px;
+}
+div#interface {
+    background-color: gray;
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+}
+div#centralizar {
+    width: 880px;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40pt;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+figure.fotos {
+    width: 270px;
+    float: left;
+    margin: 10px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
+    transition: all 0.5s;
+}
+img {
+    width: 100%;
+}
+figure.fotos:hover {
+    transform: scale(1.5);
+}

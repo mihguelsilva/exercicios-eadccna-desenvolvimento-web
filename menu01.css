@@ -1,0 +1,40 @@
+@charset "utf-8";
+* {
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+    height: 50px;
+    background: #707070;
+    border-bottom: 1px solid #494949;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background: #707070;
+    text-align: center;
+    line-height: 50px;
+    border-right: 1px solid #494949;
+}
+nav ul li ul li {
+    display: none;
+    border-top: 1px solid #494949;
+    border-right: none;
+}
+nav ul li:hover ul li {
+    display: block;
+}
+nav ul li ul li:hover {
+    background-color: #ff4949;
+}
+a {
+    text-decoration: none;
+    font-family: arial;
+    color: white;
+    display: block;
+}
